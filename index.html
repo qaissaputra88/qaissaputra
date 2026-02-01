@@ -35,12 +35,11 @@
         .container {
             background: #ffffff;
             width: 100%;
-            max-width: 500px;
+            max-width: 480px;
             border-radius: 24px;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
             padding: 40px;
             animation: fadeInUp 0.8s ease-out;
-            position: relative;
         }
 
         .header {
@@ -48,13 +47,13 @@
             margin-bottom: 30px;
         }
 
-        /* Frame Foto Profil */
         .profile-wrapper {
             position: relative;
             display: inline-block;
             margin-bottom: 15px;
         }
 
+        /* FOTO PROFIL ANDA */
         .profile-img {
             width: 150px;
             height: 150px;
@@ -69,7 +68,6 @@
             font-weight: 800;
             margin: 10px 0 5px 0;
             letter-spacing: -0.5px;
-            color: var(--dark);
         }
 
         .tagline {
@@ -82,7 +80,8 @@
             display: inline-block;
         }
 
-        .school-info {
+        .school-name {
+            display: block;
             font-size: 14px;
             color: var(--secondary);
             margin-top: 8px;
@@ -123,8 +122,8 @@
 
         .skill-card:hover {
             border-color: var(--primary);
-            transform: scale(1.02);
             box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
+            transform: translateY(-2px);
         }
 
         .skill-card h3 {
@@ -164,7 +163,6 @@
         .info-pill i {
             margin-right: 10px;
             color: var(--primary);
-            font-size: 14px;
         }
 
         .footer {
@@ -180,11 +178,11 @@
     <div class="container">
         <div class="header">
             <div class="profile-wrapper">
-                <img src="https://i.ibb.co/3ykMv6D/f4CUYaj.jpg" alt="Muhammad Qais Saputra" class="profile-img">
+                <img src="https://vgy.me/u/fQcBDl9.jpg" alt="Muhammad Qais Saputra" class="profile-img">
             </div>
             <h1>Muhammad Qais Saputra</h1>
             <div class="tagline">Teknik Komputer & Jaringan</div>
-            <div class="school-info">SMKN Pasirian</div>
+            <span class="school-name">SMKN Pasirian</span>
         </div>
 
         <div class="section">
@@ -192,17 +190,17 @@
             
             <div class="skill-card">
                 <h3><i class="fas fa-laptop-medical"></i> Servis Laptop & PC</h3>
-                <p>Troubleshooting hardware, penggantian sparepart, pembersihan Thermal Paste, dan optimasi performa perangkat.</p>
+                <p>Mampu mendiagnosa kerusakan hardware, perbaikan komponen, upgrade sistem, serta perawatan thermal paste secara profesional.</p>
             </div>
 
             <div class="skill-card">
                 <h3><i class="fas fa-network-wired"></i> Crimping & Networking</h3>
-                <p>Pemasangan konektor RJ45 standar T568A/B (Straight/Cross) dan konfigurasi jaringan LAN.</p>
+                <p>Terampil dalam pembuatan kabel jaringan Straight/Cross standar internasional dan konfigurasi dasar jaringan lokal.</p>
             </div>
         </div>
 
         <div class="section">
-            <div class="section-title">Alamat & Hobi</div>
+            <div class="section-title">Data Diri & Hobi</div>
             <div class="info-grid">
                 <div class="info-pill" style="grid-column: span 2;">
                     <i class="fas fa-map-marker-alt"></i> Lumajang, Jawa Timur, Indonesia
@@ -217,7 +215,7 @@
         </div>
 
         <div class="footer">
-            &copy; 2026 Muhammad Qais Saputra | SMKN Pasirian
+            &copy; 2026 Portofolio Digital | Muhammad Qais Saputra
         </div>
     </div>
 
